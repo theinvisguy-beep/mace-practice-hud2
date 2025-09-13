@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "id": "macepractice",
+  "version": "1.2.0",
+  "name": "Mace Practice HUD",
+  "description": "HUD + cues to practice mace timing. No automation.",
+  "environment": "client",
+  "entrypoints": { "client": ["dev.darian.macepractice.MacePracticeClient"] },
+  "depends": { "fabricloader": ">=0.16.5", "fabric": "*", "minecraft": ">=1.21" }
+}
